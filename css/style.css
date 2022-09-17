@@ -139,3 +139,13 @@ body {
 	height: 300px;
 	padding: 10px;
 }
+
+.version-a {
+	text-align: right;
+	padding: 0 20px;
+}
+.version-a a {
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none !important;
+}
