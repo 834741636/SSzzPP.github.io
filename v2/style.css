@@ -77,7 +77,7 @@ body>.container {
 }
 
 .box .uid #uid {
-	border-radius: 1rem 0 0 1rem;
+	border-radius: 1rem;
 }
 
 .box .uid .btn-success {
