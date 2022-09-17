@@ -29,6 +29,10 @@
           <input class="form-control" id="token" placeholder="输入UID获取token或手动输入token">
           <label for="token">输入UID获取token或手动输入token</label>
         </div>
+	<div class="form-floating mb-5" style="display:none">
+          <input class="form-control" id="frequency" placeholder="请输入你的通关次数" oninput="value=value.replace(/[^\d]/g,'')" value="6666" maxlength="4">
+          <label for="frequency">请输入你的通关次数（限制9999次）</label>
+        </div>
         <button class="btn btn-success col-12 mb-4" id="get_code">提交</button>
 	<div class="col-12 mb-4" style="text-align: right;">*UID可点击「俺的名片」查看</div>
       </div>
